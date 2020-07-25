@@ -1,16 +1,14 @@
 
-#一部分配置文件
+
 class Config:
 
-    #将浏览器类型设置为火狐浏览器
-    browser = "firefox"
+    # 运行测试用例的目录或文件
+    cases_path = "./test_dir/"
+
+    # 使用火狐浏览器打开网页
+    driver_type = "firefox"
 
     # 配置运行的 URL
-    url = "www.bilibili.com"
+    url = "https://www.baidu.com"
 
-    # 失败重跑次数
-    rerun = "1"
-
-    # 当达到最大失败数，停止执行
-    max_fail = "5"
 
